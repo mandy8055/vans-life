@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ABOUT_ROUTE, HOME_ROUTE, VANS_ROUTE } from '../constants';
+import { ABOUT_ROUTE, HOME_ROUTE, HOST_ROUTE, VANS_ROUTE } from '../constants';
 
 const Header = () => {
   return (
@@ -8,6 +8,7 @@ const Header = () => {
         #VanLife
       </Link>
       <nav>
+        <Link to={HOST_ROUTE}>Host</Link>
         <Link to={ABOUT_ROUTE}>About</Link>
         <Link to={VANS_ROUTE}>Vans</Link>
       </nav>

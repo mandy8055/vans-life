@@ -3,6 +3,9 @@ import {
   ABOUT_ROUTE,
   VANS_ROUTE,
   VANS_DETAIL_ROUTE,
+  HOST_ROUTE,
+  INCOME_ROUTE,
+  REVIEWS_ROUTE,
 } from './appRoutes';
 
 import { ALL_VANS_API_ROUTE } from './apiRoutes';
@@ -16,4 +19,7 @@ export {
   VANS_DETAIL_ROUTE,
   ALL_VANS_API_ROUTE,
   VANS_LIST,
+  HOST_ROUTE,
+  INCOME_ROUTE,
+  REVIEWS_ROUTE,
 };
